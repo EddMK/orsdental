@@ -1,0 +1,138 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(255, 255, 240);
+}
+
+.menu{
+  background-color: rgb(52, 52, 52);
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.menu a{
+  background-color: rgb(52, 52, 52);
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+} 
+
+.minimenu{
+  float : right;
+}
+
+.home{
+  margin-top: 50px;
+  height: 800px;
+  background-image: url("images/image3.jpg");
+  background-repeat: no-repeat;
+  background-size: 1500px 700px;
+}
+
+.home h1{
+  background-color: transparent;
+  text-align: center;
+  font-size: 50px;
+}
+
+.home h1 span{
+  background-color: transparent;
+}
+
+.intro{
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 400px;
+  color : darkblue;
+  font-size: 20px;
+}
+
+.intro h2{
+  font-size: 35px;
+  text-align:center
+}
+
+.specialization{
+  color : darkblue;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.specialization h2{
+  text-align:center;
+  font-size: 35px;
+}
+
+.specialization p{
+  font-size: 20px;
+}
+
+.ethiques{
+  color : darkblue;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.ethiques h2{
+  text-align:center;
+  font-size: 35px;
+}
+
+.ethiques p{
+  font-size: 20px;
+}
+
+.laboratoire{
+  color : darkblue;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.laboratoire h2{
+  text-align:center;
+  font-size: 35px;
+}
+
+.laboratoire p{
+  font-size: 20px;
+}
+
+/*rgb(169, 92, 104)*/
+
+.contact{
+  background-color: rgb(52, 52, 52);
+  color : white;
+}
+
+.contact h3{
+  background-color: rgb(52, 52, 52);
+  color : white;
+  font-size: 20px;
+  padding-left: 100px;
+}
+
+.contact p{
+  background-color: rgb(52, 52, 52);
+  color : white;
+  font-size: 15px;
+  padding-left: 150px;
+}
+
+.contact a{
+  background-color: rgb(52, 52, 52);
+  color : white;
+  font-size: 15px;
+  padding-left: 150px;
+}
+
+.contact .material-icons{
+  padding-left: 150px;
+  background-color: rgb(52, 52, 52);
+}
+
+.contact table, tr, td{
+  padding-left: 150px;
+  background-color: rgb(52, 52, 52);
+  border : none;
+}
