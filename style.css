@@ -25,9 +25,10 @@
 .home{
   margin-top: 50px;
   height: 800px;
+  width: 100%;
   background-image: url("images/image3.jpg");
   background-repeat: no-repeat;
-  background-size: 1500px 700px;
+  background-size: cover;
 }
 
 .home h1{
@@ -41,6 +42,7 @@
 }
 
 .intro{
+  padding-top: 50px;
   padding-left: 50px;
   padding-right: 50px;
   height: 400px;
@@ -57,6 +59,7 @@
   color : darkblue;
   padding-left: 50px;
   padding-right: 50px;
+  padding-top: 50px;
 }
 
 .specialization h2{
@@ -72,6 +75,7 @@
   color : darkblue;
   padding-left: 50px;
   padding-right: 50px;
+  padding-top: 50px;
 }
 
 .ethiques h2{
@@ -87,6 +91,7 @@
   color : darkblue;
   padding-left: 50px;
   padding-right: 50px;
+  padding-top: 50px;
 }
 
 .laboratoire h2{
