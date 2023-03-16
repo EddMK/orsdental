@@ -23,12 +23,12 @@
 }
 
 .home{
-  margin-top: 50px;
-  height: 800px;
+  margin-top: 7vh;
+  height: 93vh;
   width: 100%;
   background-image: url("images/image3.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
 .home h1{
@@ -137,7 +137,7 @@
 }
 
 .contact table, tr, td{
-  padding-left: 150px;
+  padding-left: 20px;
   background-color: rgb(52, 52, 52);
   border : none;
 }
