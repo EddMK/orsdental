@@ -4,7 +4,7 @@
 }
 
 .menu{
-  background-color: rgb(63, 122, 243);
+  background-color: rgb(255, 255, 255);
   position: fixed;
   width: 100%;
   top: 0;
@@ -12,11 +12,11 @@
  
 .menu a
 {
-  background-color: rgb(63, 122, 243);
+  background-color: rgb(255, 255, 255);
+  color:darkgreen;
   display: block;
   padding: 14px 16px;
   text-decoration: none;
-  color: white;
   float : right;
 }
 
@@ -29,10 +29,15 @@ label, #toggle {
   display: none;
 }
 
-.home{
+.first{
   margin-top: 7vh;
   height: 93vh;
   width: 100%;
+}
+
+.home{
+  width: 100%;
+  height : 70%;
   background-image: url("images/image3.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -115,6 +120,7 @@ label, #toggle {
 .contact{
   background-color: rgb(52, 52, 52);
   color : white;
+  padding-bottom: 2%;
 }
 
 .contact h3{
@@ -153,22 +159,39 @@ label, #toggle {
   font-weight: bold;
 }
 
+.contenu_contact{
+  display: flex;
+}
+
+.map{
+  width: 50%;
+  height: 100%;
+}
+
+.contact_map{
+  width: 50%;
+}
+
+.contact_table{
+  width: 50%;
+}
+
+
 @media screen and (max-width: 750px) {
   .minimenu {
     display: none;
     flex-direction: column;
-    background:  rgb(72, 93, 137);
+    background: white;
     align-items: center;
     justify-content: space-around;
   }
  
   .minimenu a {
     width: 50%;
-    background:  rgb(72, 93, 137);
+    background: white;
     align-items: center;
     justify-content: center;
   }
-
 
   label {
     width: 15px;
@@ -177,11 +200,20 @@ label, #toggle {
     align-items: center;
     margin: 0 auto;
     font-size: 40px;
-    color: white;
+    color: darkgreen;
     cursor: pointer;
   }
 
   #toggle:checked + .minimenu {
     display: flex;
+  }
+
+  .contenu_contact{
+    display: block;
+  }
+
+  .contact_map{
+    align-items: center;
+    padding-left: 170px;
   }
 }
