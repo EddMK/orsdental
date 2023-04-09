@@ -22,7 +22,7 @@
 
 .minimenu a:hover 
 {
-    background: #5A5766
+    background: #d1cfdc
 }
 
 label, #toggle {
@@ -194,12 +194,12 @@ label, #toggle {
   }
 
   label {
-    width: 15px;
+    width: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    font-size: 40px;
+    font-size: 300%;
     color: darkgreen;
     cursor: pointer;
   }
