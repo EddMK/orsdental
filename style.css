@@ -178,6 +178,10 @@ label, #toggle {
 
 
 @media screen and (max-width: 1200px) {
+  .menu{
+    height: 50px;
+  }
+
   .minimenu {
     display: none;
     flex-direction: column;
