@@ -198,15 +198,11 @@ label, #toggle {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    font-size: 80px;
+    font-size: 50px;
     color: darkgreen;
     cursor: pointer;
   }
-/*
-  #toggle:checked + .minimenu {
-    display: flex;
-  }
-*/
+
   .contenu_contact{
     display: block;
   }
