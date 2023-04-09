@@ -5,18 +5,42 @@
     <title>Ors Dental</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script>
+      function validate(){
+        if(document.getElementById("toggle").checked){
+          var divsToHide = document.getElementsByClassName("minimenu"); 
+          for(var i = 0; i < divsToHide.length; i++){
+              divsToHide[i].style.display = "none"; 
+          }
+          document.getElementById("toggle").checked = false;
+        }
+      }
+
+      function checkbox(){
+        var divsToHide = document.getElementsByClassName("minimenu"); 
+        if(document.getElementById("toggle").checked){
+          for(var i = 0; i < divsToHide.length; i++){
+              divsToHide[i].style.display = "flex"; 
+          }
+        }else{
+          for(var i = 0; i < divsToHide.length; i++){
+              divsToHide[i].style.display = "none"; 
+          }
+        }
+      }
+    </script>
   </head>
   <body>
         <nav>
           <div class="menu">
               <label for="toggle">☰</label>
-              <input type="checkbox" id="toggle">
+              <input type="checkbox" id="toggle" onclick="checkbox()" >
               <div class="minimenu">
-                <a href="#cont">Contact</a>
-                <a href="#labo">Laboratoire</a>
-                <a href="#ethique">Ethique</a>
-                <a href="#specialisation">Spécialisation</a>
-                <a href="#intro">Qui sommes-nous ?</a>
+                <a href="#cont" onclick="validate()">Contact</a>
+                <a href="#labo" onclick="validate()">Laboratoire</a>
+                <a href="#ethique" onclick="validate()">Ethique</a>
+                <a href="#specialisation" onclick="validate()">Spécialisation</a>
+                <a href="#intro" onclick="validate()">Qui sommes-nous ?</a>
               </div>
           </div>
         </nav>

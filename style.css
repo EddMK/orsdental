@@ -202,11 +202,11 @@ label, #toggle {
     color: darkgreen;
     cursor: pointer;
   }
-
+/*
   #toggle:checked + .minimenu {
     display: flex;
   }
-
+*/
   .contenu_contact{
     display: block;
   }
