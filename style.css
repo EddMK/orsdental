@@ -199,7 +199,7 @@ label, #toggle {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    font-size: 300%;
+    font-size: 400%;
     color: darkgreen;
     cursor: pointer;
   }
