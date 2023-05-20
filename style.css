@@ -164,6 +164,10 @@ label, #toggle {
   width: 50%;
 }
 
+.contact_map_react{
+  display: none;
+}
+
 
 @media screen and (max-width: 1200px) {
   .menu{
@@ -213,6 +217,14 @@ label, #toggle {
 
   .map{
     width: 50%;
+  }
+
+  .contact_map{
+    display: none;
+  }
+
+  .contact_map_react{
+    display: block;
   }
 
 }
