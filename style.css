@@ -207,6 +207,7 @@ label, #toggle {
   }
 
   .contact{
+    padding-top: 2%;
     padding-left: 2%;
     padding-right: 2%;
   }
@@ -217,7 +218,10 @@ label, #toggle {
   }
 
   .contact_table{
+    width: 10%;
     padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   .contact_map{
