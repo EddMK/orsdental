@@ -155,10 +155,6 @@ label, #toggle {
   display: flex;
 }
 
-.map{
-  width: 50%;
-  height: 100%;
-}
 
 .contact_map{
   width: 50%;
@@ -210,13 +206,11 @@ label, #toggle {
   }
 
   .contact_map{
+    width: 50%;
     padding-top: 5%;
     padding-left: 5%;
     padding-bottom: 5%;
   }
 
-  .map{
-    width: 50%;
-    height: 20%;
-  }
+
 }
