@@ -210,16 +210,6 @@ label, #toggle {
   }
 
   .contact_map{
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-bottom: 5%;
-  }
-
-  .map{
-    width: 50%;
-  }
-
-  .contact_map{
     display: none;
   }
 
