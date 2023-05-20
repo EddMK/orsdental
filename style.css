@@ -217,6 +217,11 @@ label, #toggle {
 
   .contact_map{
     align-items: center;
-    padding-left: 170px;
+    /*padding-left: 170px;*/
+  }
+
+  .contact{
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
