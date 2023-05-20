@@ -20,8 +20,7 @@
   float : right;
 }
 
-.minimenu a:hover 
-{
+.minimenu a:hover {
     background: #d1cfdc
 }
 
@@ -209,6 +208,7 @@ label, #toggle {
 
   .contenu_contact{
     display: block;
+    padding-left: 5%;
   }
 
   .contact_table{
@@ -221,7 +221,6 @@ label, #toggle {
   }
 
   .contact{
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 15%;
   }
 }
