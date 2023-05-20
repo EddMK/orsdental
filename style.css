@@ -206,21 +206,24 @@ label, #toggle {
     cursor: pointer;
   }
 
+  .contact{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
   .contenu_contact{
     display: block;
-    padding-left: 5%;
+    
   }
 
   .contact_table{
-    padding-bottom: 2%;
+    padding-bottom: 5%;
   }
 
   .contact_map{
     align-items: center;
-    /*padding-left: 170px;*/
+    padding-left: 40%;
+    padding-right: 40%;
   }
 
-  .contact{
-    padding-left: 15%;
-  }
 }
