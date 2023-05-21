@@ -6,7 +6,17 @@
     <title>Ors Dental</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <script>
+  </head>
+  <body onload="charge()">
+    <script>      
+      function charge(){
+        var w = window.innerWidth;
+        if( w < 1200){
+          var link = document.getElementById("link")
+          link.href = '#cont2'
+        }
+      }
+
       function validate(){
         if(document.getElementById("toggle").checked){
           var divsToHide = document.getElementsByClassName("minimenu"); 
@@ -30,14 +40,12 @@
         }
       }
     </script>
-  </head>
-  <body>
         <nav>
           <div class="menu">
               <label for="toggle">☰</label>
               <input type="checkbox" id="toggle" onclick="checkbox()" >
               <div class="minimenu">
-                <a href="#cont" onclick="validate()">Contact</a>
+                <a id="link" href="#cont" onclick="validate()">Contact</a>
                 <a href="#labo" onclick="validate()">Laboratoire</a>
                 <a href="#ethique" onclick="validate()">Ethique</a>
                 <a href="#specialisation" onclick="validate()">Spécialisation</a>
@@ -153,7 +161,7 @@
             </div>
           </div>
         </div>
-        <div id="cont" class="contact_react">
+        <div id="cont2" class="contact_react">
           <h3 style="font-size: 25px;">Contactez-nous</h3>
           <table class="contact_tab_react" >
             <tr>
