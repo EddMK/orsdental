@@ -55,8 +55,18 @@ label, #toggle {
   height: 93vh;
   background-image: url("images/image5.svg");
   background-size: 100% 100%;
-  /*background-repeat: no-repeat;
-  background-size: 100% 100%;*/
+}
+
+.home h1{
+  font-family: 'TimeBurner', sans-serif;
+  color : #3AAFA9;   
+  font-size: 50px;                                           
+}
+
+.home h2{
+  font-family: 'Nexa', sans-serif;                                               
+  color : #FAAB36;   
+  font-size: 20px;                                           
 }
 
 .intro{
